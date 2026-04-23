@@ -1,0 +1,91 @@
+=== MNIST Classification (C++ MLP) ===
+
+Loading data...
+Train set: 60000 x 784
+Test set: 10000 x 784
+Classes: 10 (digits 0-9)
+Network Structure:
+  0: Linear
+  1: ReLU
+  2: Linear
+  3: ReLU
+  4: Linear
+  5: softmax
+
+Training started...
+Epoch 1, Loss: 0.0124
+Epoch 2, Loss: 0.0042
+Epoch 3, Loss: 0.0032
+Epoch 4, Loss: 0.0027
+Epoch 5, Loss: 0.0023
+Epoch 6, Loss: 0.0021
+Epoch 7, Loss: 0.0018
+Epoch 8, Loss: 0.0017
+Epoch 9, Loss: 0.0015
+Epoch 10, Loss: 0.0014
+Epoch 11, Loss: 0.0013
+Epoch 12, Loss: 0.0012
+Epoch 13, Loss: 0.0011
+Epoch 14, Loss: 0.0010
+Epoch 15, Loss: 0.0009
+Epoch 16, Loss: 0.0008
+Epoch 17, Loss: 0.0008
+Epoch 18, Loss: 0.0007
+Epoch 19, Loss: 0.0007
+Epoch 20, Loss: 0.0006
+Epoch 21, Loss: 0.0006
+Epoch 22, Loss: 0.0006
+Epoch 23, Loss: 0.0005
+Epoch 24, Loss: 0.0005
+Epoch 25, Loss: 0.0005
+Epoch 26, Loss: 0.0004
+Epoch 27, Loss: 0.0004
+Epoch 28, Loss: 0.0004
+Epoch 29, Loss: 0.0004
+Epoch 30, Loss: 0.0003
+Epoch 31, Loss: 0.0003
+Epoch 32, Loss: 0.0003
+Epoch 33, Loss: 0.0003
+Epoch 34, Loss: 0.0003
+Epoch 35, Loss: 0.0002
+Epoch 36, Loss: 0.0002
+Epoch 37, Loss: 0.0002
+Epoch 38, Loss: 0.0002
+Epoch 39, Loss: 0.0002
+Epoch 40, Loss: 0.0002
+Epoch 41, Loss: 0.0002
+Epoch 42, Loss: 0.0002
+Epoch 43, Loss: 0.0002
+Epoch 44, Loss: 0.0002
+Epoch 45, Loss: 0.0001
+Epoch 46, Loss: 0.0001
+Epoch 47, Loss: 0.0001
+Epoch 48, Loss: 0.0001
+Epoch 49, Loss: 0.0001
+Epoch 50, Loss: 0.0001
+Training time: 617 seconds
+
+Evaluating on training set...
+Train Accuracy: 99.9517%
+
+Evaluating on test set...
+Test Accuracy: 97.6500%
+
+=== Sample Predictions (first 10 test samples) ===
+True    Pred    Probabilities (top 3)
+----------------------------------------
+7       7       [7:1.000, 3:0.000, 9:0.000]
+2       2       [2:0.999, 1:0.001, 6:0.000]
+1       1       [1:0.999, 8:0.000, 2:0.000]
+0       0       [0:1.000, 7:0.000, 6:0.000]
+4       4       [4:1.000, 9:0.000, 7:0.000]
+1       1       [1:1.000, 7:0.000, 4:0.000]
+4       4       [4:1.000, 8:0.000, 5:0.000]
+9       9       [9:0.985, 4:0.015, 3:0.000]
+5       5       [5:0.622, 6:0.330, 8:0.046]
+9       9       [9:1.000, 7:0.000, 4:0.000]
+
+=== Summary ===
+Network: 784 -> 256 -> 128 -> 10
+Train Accuracy: 99.952%
+Test Accuracy: 97.650%

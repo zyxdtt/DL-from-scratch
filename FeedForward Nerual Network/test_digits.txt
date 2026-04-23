@@ -1,0 +1,134 @@
+=== Digits Classification (C++ MLP) ===
+
+Loading data...
+Train set: 1437 x 64
+Test set: 360 x 64
+Classes: 10 (digits 0-9)
+Network Structure:
+  0: Linear
+  1: ReLU
+  2: Linear
+  3: ReLU
+  4: Linear
+  5: softmax
+
+Training started...
+Epoch 1, Loss: 0.0698
+Epoch 2, Loss: 0.0642
+Epoch 3, Loss: 0.0584
+Epoch 4, Loss: 0.0519
+Epoch 5, Loss: 0.0450
+Epoch 6, Loss: 0.0382
+Epoch 7, Loss: 0.0321
+Epoch 8, Loss: 0.0269
+Epoch 9, Loss: 0.0229
+Epoch 10, Loss: 0.0197
+Epoch 11, Loss: 0.0172
+Epoch 12, Loss: 0.0152
+Epoch 13, Loss: 0.0136
+Epoch 14, Loss: 0.0123
+Epoch 15, Loss: 0.0112
+Epoch 16, Loss: 0.0102
+Epoch 17, Loss: 0.0094
+Epoch 18, Loss: 0.0087
+Epoch 19, Loss: 0.0081
+Epoch 20, Loss: 0.0075
+Epoch 21, Loss: 0.0071
+Epoch 22, Loss: 0.0067
+Epoch 23, Loss: 0.0063
+Epoch 24, Loss: 0.0059
+Epoch 25, Loss: 0.0056
+Epoch 26, Loss: 0.0053
+Epoch 27, Loss: 0.0051
+Epoch 28, Loss: 0.0049
+Epoch 29, Loss: 0.0046
+Epoch 30, Loss: 0.0045
+Epoch 31, Loss: 0.0043
+Epoch 32, Loss: 0.0041
+Epoch 33, Loss: 0.0039
+Epoch 34, Loss: 0.0038
+Epoch 35, Loss: 0.0036
+Epoch 36, Loss: 0.0035
+Epoch 37, Loss: 0.0034
+Epoch 38, Loss: 0.0033
+Epoch 39, Loss: 0.0032
+Epoch 40, Loss: 0.0031
+Epoch 41, Loss: 0.0030
+Epoch 42, Loss: 0.0029
+Epoch 43, Loss: 0.0028
+Epoch 44, Loss: 0.0027
+Epoch 45, Loss: 0.0026
+Epoch 46, Loss: 0.0026
+Epoch 47, Loss: 0.0025
+Epoch 48, Loss: 0.0024
+Epoch 49, Loss: 0.0023
+Epoch 50, Loss: 0.0023
+Epoch 51, Loss: 0.0022
+Epoch 52, Loss: 0.0022
+Epoch 53, Loss: 0.0021
+Epoch 54, Loss: 0.0021
+Epoch 55, Loss: 0.0020
+Epoch 56, Loss: 0.0020
+Epoch 57, Loss: 0.0019
+Epoch 58, Loss: 0.0019
+Epoch 59, Loss: 0.0018
+Epoch 60, Loss: 0.0018
+Epoch 61, Loss: 0.0017
+Epoch 62, Loss: 0.0017
+Epoch 63, Loss: 0.0017
+Epoch 64, Loss: 0.0016
+Epoch 65, Loss: 0.0016
+Epoch 66, Loss: 0.0015
+Epoch 67, Loss: 0.0015
+Epoch 68, Loss: 0.0015
+Epoch 69, Loss: 0.0015
+Epoch 70, Loss: 0.0014
+Epoch 71, Loss: 0.0014
+Epoch 72, Loss: 0.0014
+Epoch 73, Loss: 0.0013
+Epoch 74, Loss: 0.0013
+Epoch 75, Loss: 0.0013
+Epoch 76, Loss: 0.0013
+Epoch 77, Loss: 0.0012
+Epoch 78, Loss: 0.0012
+Epoch 79, Loss: 0.0012
+Epoch 80, Loss: 0.0012
+Epoch 81, Loss: 0.0011
+Epoch 82, Loss: 0.0011
+Epoch 83, Loss: 0.0011
+Epoch 84, Loss: 0.0011
+Epoch 85, Loss: 0.0011
+Epoch 86, Loss: 0.0010
+Epoch 87, Loss: 0.0010
+Epoch 88, Loss: 0.0010
+Epoch 89, Loss: 0.0010
+Epoch 90, Loss: 0.0010
+Epoch 91, Loss: 0.0010
+Epoch 92, Loss: 0.0009
+Epoch 93, Loss: 0.0009
+Epoch 94, Loss: 0.0009
+Epoch 95, Loss: 0.0009
+Epoch 96, Loss: 0.0009
+Epoch 97, Loss: 0.0009
+Epoch 98, Loss: 0.0009
+Epoch 99, Loss: 0.0008
+Epoch 100, Loss: 0.0008
+Training time: 2 seconds
+
+=== Evaluation Results ===
+Train Accuracy: 99.8608%
+Test Accuracy: 96.9444%
+
+=== Sample Predictions (first 10 test samples) ===
+True    Pred    Probabilities (top 3)
+----------------------------------------
+5       5       [5:0.981, 9:0.018, 0:0.000]
+2       2       [2:1.000, 8:0.000, 3:0.000]
+8       8       [8:0.786, 1:0.190, 9:0.012]
+1       6       [6:0.430, 8:0.285, 1:0.257]
+7       7       [7:0.997, 3:0.002, 2:0.001]
+2       2       [2:0.990, 3:0.010, 8:0.000]
+6       6       [6:0.999, 8:0.001, 4:0.000]
+2       2       [2:0.999, 3:0.001, 8:0.000]
+6       6       [6:1.000, 8:0.000, 4:0.000]
+5       5       [5:1.000, 3:0.000, 9:0.000]
