@@ -1,0 +1,10 @@
+Loading MNIST...
+Train: 60000, Test: 10000
+Start training...
+Epoch 1/5 | loss: 0.490732 | test acc: 92.4% | time: 943.955s
+Epoch 2/5 | loss: 0.201814 | test acc: 94.7% | time: 931.445s
+Epoch 3/5 | loss: 0.152406 | test acc: 96% | time: 895.9s
+Epoch 4/5 | loss: 0.125261 | test acc: 96.8% | time: 896.388s
+Epoch 5/5 | loss: 0.107598 | test acc: 97.1% | time: 898.461s
+
+Final test accuracy: 96.98%
